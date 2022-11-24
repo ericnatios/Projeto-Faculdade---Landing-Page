@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-size: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+form {
+    font-family: 'Montserrat', sans-serif;
+    background: #FB5;
+    border-radius: 30px;
+    padding: 10px 50px 0px 50px;
+
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+form input {
+    outline: unset;
+    padding: 15px;
+    width: 500px;
+    border: 1px solid #FB5;
+    border-radius: 20px;
+}
+
+form label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    color: black;
+}
+
+button {
+    font-weight: bold;
+    height: 40px;
+    border-radius: 20px;
+}
+
+button:hover {
+    transition: all 0.4s ease-in-out;
+    background-color: #38ca38cc;
+    cursor: pointer;
+}
+
+a{
+    color: var(--letter-color-anchor);
+}
+
+a:hover{
+    color: #FB5;
+    transition: all 0.4s ease-in-out;
+}
+
+.ancora:hover{
+    color: var(--letter-color-anchor);
+}
+
+
+ul{
+    display: flex;
+    width: 25rem;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+img{
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: black;
+    align-items: center;
+}
+
+.right_content{
+    display: flex;
+    width: 25rem;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    width: 200px;
+    margin-left: 20px;
+}
+
+.d1 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.p1 p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+}
+
+.d7 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-style: oblique;
+}
