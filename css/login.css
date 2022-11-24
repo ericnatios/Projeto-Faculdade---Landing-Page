@@ -94,6 +94,7 @@ img{
     text-align: center;
     background-color: black;
     align-items: center;
+    border-bottom: 0.25px solid #fb5c;
 }
 
 .right_content{

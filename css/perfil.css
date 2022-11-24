@@ -52,14 +52,15 @@ form label {
 }
 
 button {
-    background-color: green;
     height: 40px;
     border-radius: 20px;
     margin-top: 10px;
 }
 
 button:hover {
-    background-color: white;
+    transition: all 0.4s ease-in-out;
+    background-color: #38ca38cc;
+    cursor: pointer;
 }
 
 a{
@@ -93,6 +94,7 @@ img{
     text-align: center;
     background-color: black;
     align-items: center;
+    border-bottom: 0.25px solid #fb5c;
 }
 
 .right_content{
