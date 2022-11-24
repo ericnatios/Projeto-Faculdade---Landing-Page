@@ -11,7 +11,11 @@ let emailValue = document.querySelector("#email")
 
 
 const showAlert = () =>{
-    return alert(`Cadastro realizado com sucesso! Bem vindo ${nameValue.value}`)
+    if(!nameValue.value){
+        return alert("Digite um nome")
+    }else{
+        return alert(`Cadastro realizado com sucesso! Bem vindo ${nameValue.value}`)
+    }
 }
 
 
