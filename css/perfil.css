@@ -71,6 +71,10 @@ a:hover{
     transition: all 0.4s ease-in-out;
 }
 
+.ancora:hover{
+    color: var(--letter-color-anchor);
+}
+
 ul{
     display: flex;
     width: 25rem;
